@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:hsl(230, 17%, 14%)
+}
+
+.container{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
+.header{
+    display: flex;
+}
+
+.header_heading{
+    font-size: 1.3rem;
+    color: white;
+}
