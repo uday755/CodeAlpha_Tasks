@@ -10,16 +10,78 @@
 </head>
 
 <body>
-    <header class="header container">
-      <div class="header_info">
-        <h1 class="header_heading">Social Media Dashboard</h1>
-        <span class="header_followers">Total Followers : 23,004</span>
+  <header class="header container">
+    <div class="header_info">
+      <h1 class="header_heading">Social Media Dashboard</h1>
+      <span class="header_followers">Total Followers : 23,004</span>
+    </div>
+    <div class="header_toggle">
+      <span class="header_toggle_mode">Dark Mode</span>
+      <input id="toggle_input" class="header_toggle_input" type="checkbox" />
+      <label class="header_toggle_label" for="header_toggle_input"></label>
+    </div>
+  </header>
+  <main>
+    <div class="highlights container">
+      <div class="highlight highlight--facebook">
+        <div class="highlight_user">
+          <img src="./images/icon-facebook.svg" alt="Facebook Icon" class="highlight_user_icon">
+          <span class="highlight_user_name">@UdaySingh</span>
+        </div>
+        <div class="highlight_count">
+          <span class="highlight_count_number">4568</span>
+          <br>
+          <span class="highlight_count_label">Followers</span>
+        </div>
+        <div class="highlight_progress highlight_progress--up">
+          <img src="./images/icon-up.svg" class="highlight_progress_icon" alt="Icon Up">
+          <span class="highlight_progress_label">24 Today</span>
+        </div>
       </div>
-      <div class="header_toggle">
-        <span>Dark Mode</span>
-        <input />
+      <div class="highlight highlight--twitter">
+        <div class="highlight_user">
+          <img src="./images/icon-twitter.svg" alt="Twitter Icon" class="highlight_user_icon">
+          <span class="highlight_user_name">@Uday_Singh</span>
+        </div>
+        <div class="highlight_count">
+          <span class="highlight_count_number">4868</span>
+          <span class="highlight_count_label">Followers</span>
+        </div>
+        <div class="highlight_progress highlight_progress--up">
+          <img src="./images/icon-up.svg" alt="Icon Up">
+          <span class="highlight_progress_label">8 Today</span>
+        </div>
       </div>
-    </header>
+      <div class="highlight highlight--Instagram">
+        <div class="highlight_user">
+          <img src="./images/icon-instagram.svg" alt="Instagram Icon" class="highlight_user_icon">
+          <span class="highlight_user_name">@usingh</span>
+        </div>
+        <div class="highlight_count">
+          <span class="highlight_count_number">8497</span>
+          <span class="highlight_count_label">Followers</span>
+        </div>
+        <div class="highlight_progress highlight_progress--up">
+          <img src="./images/icon-up.svg" alt="Icon Up">
+          <span class="highlight_progress_label">78 Today</span>
+        </div>
+      </div>
+      <div class="highlight highlight--youtube">
+        <div class="highlight_user">
+          <img src="./images/icon-youtube.svg" alt="Youtube Icon" class="highlight_user_icon">
+          <span class="highlight_user_name">@udaysinghtohana9</span>
+        </div>
+        <div class="highlight_count">
+          <span class="highlight_count_number">8957</span>
+          <span class="highlight_count_label">Followers</span>
+        </div>
+        <div class="highlight_progress highlight_progress--down">
+          <img src="./images/icon-down.svg" alt="Icon Up">
+          <span class="highlight_progress_label">4 Today</span>
+        </div>
+      </div>
+    </div>
+  </main>
 
   <!-- Social Media Dashboard
   Total Followers: 23,004
